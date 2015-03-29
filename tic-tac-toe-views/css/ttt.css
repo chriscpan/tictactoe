@@ -1,0 +1,51 @@
+.TTT-game {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  outline: 10px solid #ccc;
+}
+
+.TTT-game ul { padding: 0; }
+
+
+.TTT-game li {
+  display: block;
+  width: 80px;
+  height: 80px;
+  float: left;
+  padding: 10px 10px;
+  outline: 10px solid #ccc;
+  background-color: #66FFCC;
+}
+
+.TTT-game li:hover {
+  background-color: yellow;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.TTT-game li  {
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.TTT-game li[mark="o"] {
+  color: #f80;
+}
+
+.TTT-game li[mark="x"] {
+  color: #CC6699;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #FF6699;
+}
